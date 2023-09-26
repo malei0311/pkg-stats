@@ -1,0 +1,12 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "packages/cli"
+    },
+    {
+      "path": "packages/core"
+    }
+  ],
+  "include": ["./vitest.config.ts", "./packages/*/tests/**/*.ts"]
+}

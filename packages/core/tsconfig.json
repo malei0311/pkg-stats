@@ -1,0 +1,13 @@
+{
+  "extends": "../../tsconfig.common.json",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "rootDir": "src",
+    "outDir": "lib",
+    "declarationDir": "dts",
+    "paths": {
+      "@pkg-stats/*": ["../*/src"]
+    }
+  },
+  "exclude": ["tests", "lib"]
+}
