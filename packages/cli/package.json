@@ -1,6 +1,6 @@
 {
   "name": "@pkg-stats/cli",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "pkg-stats-cli",
   "author": "malei0311 <leiman0311l@gmail.com>",
   "homepage": "",
@@ -36,7 +36,7 @@
     "build": "NODE_ENV=production INPUT_FILE=src/index.ts rollup -c ../../rollup.config.mjs"
   },
   "dependencies": {
-    "@pkg-stats/core": "^1.0.0",
+    "@pkg-stats/core": "^1.1.0",
     "commander": "^11.0.0",
     "ervy": "^1.0.7",
     "picocolors": "^1.0.0"
