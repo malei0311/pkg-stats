@@ -1,1 +1,1 @@
-export function foo() {}
+export * from './commands/downloads';

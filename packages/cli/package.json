@@ -5,6 +5,9 @@
   "author": "malei0311 <leiman0311l@gmail.com>",
   "homepage": "",
   "license": "MIT",
+  "bin": {
+    "pkg-stats": "./bin/cli.cjs"
+  },
   "type": "module",
   "exports": {
     "import": "./lib/index.mjs",
@@ -13,6 +16,7 @@
   "main": "lib/index.cjs",
   "types": "lib/index.d.ts",
   "files": [
+    "bin",
     "lib",
     "!lib/dts"
   ],
@@ -32,6 +36,9 @@
     "build": "NODE_ENV=production INPUT_FILE=src/index.ts rollup -c ../../rollup.config.mjs"
   },
   "dependencies": {
-    "@pkg-stats/core": "^1.0.0"
+    "@pkg-stats/core": "^1.0.0",
+    "commander": "^11.0.0",
+    "ervy": "^1.0.7",
+    "picocolors": "^1.0.0"
   }
 }
